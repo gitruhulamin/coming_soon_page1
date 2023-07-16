@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(27, 37, 69, 0.66), rgba(27, 37, 69, 0.66)), url(img/cover.png);
+    background-size: cover;
+    padding: 10px 8%;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn {
+    background: #156EEA;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.content {
+    margin: 15% auto 0;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 320px;
+    padding: 18px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    background: rgba(217, 217, 217, 0.85);
+}
+
+form .btn1 {
+    padding: 18px 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    background: #F19710;
+    cursor: pointer;
+}
+
+form input::placeholder {
+    font-size: 16px;
+}
+
+.links {
+    margin-top: 14%;
+}
+
+.links a {
+    margin: 40px;
+}
+
+.links a img {
+    width: 30px;
+}
+
