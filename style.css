@@ -8,7 +8,7 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(27, 37, 69, 0.66), rgba(27, 37, 69, 0.66)), url(img/cover.png);
+    background-image: linear-gradient(rgba(27, 37, 69, 0.66), rgba(27, 37, 69, 0.66)), url(cover.png);
     background-size: cover;
     padding: 10px 8%;
     text-align: center;
